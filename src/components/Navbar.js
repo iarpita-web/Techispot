@@ -1,7 +1,7 @@
 // src/components/Navbar.js
 import React, { use, useState, useEffect } from 'react';
 import { Link, useNavigate} from 'react-router-dom';
-import '../styles/navbar.css'; // Assuming you have a CSS file for styling
+import '../styles/navbar.css'; 
 const Navbar = () => {
 
 
@@ -36,7 +36,7 @@ const Navbar = () => {
       <Link to="/projects" className="nav-link">Tech Projects</Link>
       {currentUser ? (
           <>
-            {/* Optionally show username */}
+            {/*  */}
             <span className="nav-link" style={{ color: '#37b9fd', cursor: 'default', userSelect: 'none' }}>
               {currentUser.name || currentUser.userName || 'User'}
             </span>

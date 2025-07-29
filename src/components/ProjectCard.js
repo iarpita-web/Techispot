@@ -27,7 +27,7 @@ function ProjectCard({ project }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          View on GitHub →
+          
         </a>
       </div>
     </div>

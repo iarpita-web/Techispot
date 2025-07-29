@@ -4,7 +4,7 @@ import samplePost from '../data/samplePost';
 import '../styles/feed.css';
 
 function Feed() {
-  const posts = [samplePost, samplePost, samplePost]; // Show multiple cards for demo
+  const posts = [samplePost, samplePost, samplePost]; 
 
   return (
     <div className="feed-outer">

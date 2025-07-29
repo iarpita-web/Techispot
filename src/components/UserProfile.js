@@ -14,7 +14,7 @@ function UserProfile({ user, showFollow = false }) {
         height={avatarSize}
         style={{ borderRadius: '50%', objectFit: 'cover' }}
         onError={e => {
-          // fallback in case userImage URL is broken
+          
           e.target.onerror = null;
           e.target.src = defaultAvatar;
         }}

@@ -1,6 +1,6 @@
 // src/components/Sidebar.js
 import React, { useState } from 'react';
-import initialCommunities from '../data/initialCommunities'; // Import initial communities data
+import initialCommunities from '../data/initialCommunities'; 
 
 const Sidebar = () => {
   const [showModal, setShowModal] = useState(false);

@@ -15,7 +15,7 @@ const ForgotPassword = () => {
     }
     setError("");
     setMsg("If an account exists, you will receive a reset link.");
-    // TODO: Backend call for reset
+    
   };
 
   return (

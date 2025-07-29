@@ -39,7 +39,7 @@ function Comment({ comment }) {
     },
   };
 
-  // Pass compact to UserProfile for a smaller avatar and name
+  
   return (
     <div style={styles.container}>
       <div style={styles.header}>

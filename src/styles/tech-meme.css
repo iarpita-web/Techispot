@@ -1,0 +1,22 @@
+.techmemes-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #18243a 0%, #153347 100%);
+  color: #d1dbff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 4rem;
+}
+
+.techmemes-container {
+  max-width: 700px;
+  margin: 1.8rem auto 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.techmemes-heading {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #42e3fa;
+  margin-bottom: 2rem;
+  letter-spacing: 1.4px;
+  text-align: center;
+}

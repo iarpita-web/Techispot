@@ -1,0 +1,44 @@
+/* src/styles/feed.css */
+
+.feed-outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+}
+
+.feed-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+  align-items: center;
+  width: 100%;
+}
+
+.feed-card {
+  width: 100%;
+  background: rgba(30, 37, 48, 0.82);
+  border-radius: 22px;
+  box-shadow: 0 4px 32px rgba(40, 180, 230, 0.13), 0 1.5px 5px #1323331f;
+  padding: 1.7rem 2.15rem 1.5rem 2.15rem;
+  position: relative;
+  backdrop-filter: blur(6px);
+  transition: box-shadow 0.22s, transform 0.2s;
+}
+
+.feed-card:hover {
+  box-shadow: 0 7px 38px #38dfff44, 0 2.5px 6px #13233331;
+  transform: translateY(-3px) scale(1.02);
+}
+
+/* Responsive for mobile/tablet */
+@media (max-width: 700px) {
+  .feed-card {
+    padding: 1rem 0.6rem;
+    max-width: 800px;
+    border-radius: 14px;
+  }
+  .feed-cards {
+    gap: 1.1rem;
+  }
+}

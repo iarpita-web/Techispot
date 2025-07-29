@@ -1,0 +1,20 @@
+.technews-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #18243a 0%, #153347 100%);
+  color: #d5e0fa;
+}
+.technews-container {
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 2.3rem 0;
+}
+.technews-main {
+  width: 100%;
+}
+.technews-heading {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: #42e3fa;
+  margin-bottom: 2.3rem;
+  letter-spacing: 1.5px;
+}

@@ -10,7 +10,7 @@ function Post({ post }) {
   const [showComments, setShowComments] = useState(false);
 
   const styles = {
-    
+    // Removed card styles since parent div is already a card
 
     description: {
       fontSize: '1.05rem',

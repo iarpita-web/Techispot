@@ -4,7 +4,11 @@ import samplePost from '../data/samplePost';
 import '../styles/feed.css';
 
 function Feed() {
-  const posts = [samplePost, samplePost, samplePost]; 
+  const localPosts = JSON.parse(localStorage.getItem('feedPosts'));
+  const posts = Array.isArray(localPosts) && localPosts.length > 0
+    ? localPosts
+    : [samplePost, samplePost, samplePost];
+  const [updatedPosts, setUpdatedPosts] = React.useState(posts);
 
   return (
     <div className="feed-outer">

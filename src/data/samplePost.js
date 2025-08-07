@@ -16,7 +16,7 @@ How do you see ES2025 shaping future JS development? Let's discuss!`,
     {
       user: {
         userName: 'Priyanshu Patel',
-        userImage: '', 
+        userImage: '', // Will fall back to faceless black avatar icon
         alt: '',
         followBtn: true
       },
